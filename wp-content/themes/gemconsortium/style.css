@@ -1,0 +1,392 @@
+/*
+Theme Name: GEM Consortium
+*/
+
+body {
+    font-family: "Plus Jakarta Sans" !important;
+    font-size: 20px !important;
+    font-weight: 500;
+    line-height: 30px !important;
+}
+.body-18 {
+    font-size: 18px !important;
+}
+.h1-heading{
+    font-family: "Plus Jakarta Sans";
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 76px;
+}
+.h2-heading {
+    font-family: "Plus Jakarta Sans";
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52.92px;
+}
+.text-semibold{
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+p:last-child{
+    margin-bottom: 0;
+}
+
+
+/* Global member page style start */
+
+section.common-banner {
+    padding: 80px 0;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+section.global-member-banner {
+    background-image: url(http://localhost/gem/wp-content/uploads/2024/06/global-team-bg.jpg);
+}
+section.common-banner h1 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+section.common-banner p {
+    color: #fff;
+    max-width: 900px;
+    margin: auto;
+}
+.global-team-members {
+    padding: 80px 0 0;
+}
+.global-team-members .container {
+    max-width: 1080px;
+}
+.global-team-members .container .row {
+    grid-row-gap: 80px;
+}
+.global-team-members .container .row>*{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.global-team-members .global-team-post img {
+    line-height: 0;
+    border-radius: 15px;
+    cursor: pointer;
+ }
+.global-team-members .global-team-post h3 {
+    color: #0082CA;
+    margin: 15px 0 6px;
+    cursor: pointer;
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25.2px;
+}
+.global-team-members .global-team-post .excerpt p {
+    color: #1A1A1A;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.16px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.team-member-modal {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 100%;
+    background-color: #fff;
+    display: flex;
+    transition: all .4s;
+}
+.team-member-modal.active {
+    left: 0;
+}
+.team-member-modal .member-content {
+    text-align: left;
+    width: 60%;
+    padding: 111px 133px 40px 80px;
+    align-self: start;
+    overflow: auto;
+    height: 100%;
+}
+.team-member-modal .member-image {
+    width: 40%;
+}
+.team-member-modal .member-content h3 {
+    font-size: 30px !important;
+    line-height: 30px !important;
+    color: #1a1a1a;
+    margin: 0 0 10px !important;
+}
+.team-member-modal .member-content .excerpt p {
+    color: #7C7C7C;
+    font-size: 20px;
+    line-height: 26px !important;
+    font-weight: 500;
+    margin: 0 0 30px !important;
+}
+.team-member-modal .member-content .content p {
+    color: #1a1a1a;
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    font-family: "Plus Jakarta Sans";
+}
+.team-member-modal .member-image img {
+    height: 100% !important;
+    object-fit: cover;
+    border-radius: 0px;
+    cursor: auto;
+}
+.team-member-modal span.close-button {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display: none;
+}
+.team-member-modal.active span.close-button {
+    display: block;
+}
+
+.share-article {
+    padding: 40px 0 80px 0;
+}
+.share-article .align-items-center {
+    grid-column-gap: 15px;
+}
+.share-article .align-items-center div{
+    grid-column-gap: 12px;
+}
+
+.search-btn {
+    line-height: 1;
+}
+
+
+/* Governance page style start */
+.governance-banner {
+    background-image: url(http://localhost/gemconsortium/wp-content/uploads/2024/08/governance-bg.jpg);
+}
+.gover-img-txt {
+    padding: 80px 0;
+}
+.gover-img-txt img {
+    border-radius: 20px;
+}
+.gera-member-section {
+    background-color: #FFEEDB;
+    padding: 80px 0;
+}
+.gera-member-section h2 {
+    color: #0082CA;
+    margin-bottom: 40px;
+}
+/* Governance page style ens */
+
+/* National Team page style start */
+
+.national-team-banner {
+    background-image: url(http://localhost/gemconsortium/wp-content/uploads/2024/08/Rectangle-34624279.jpg);
+}
+section.national-team-banner p {
+    max-width: 600px;
+}
+.national-team-flags .flag-name-container {
+    background-color: #F9F9F9;
+    border: .5px solid #D9D9D9;
+    padding: 15px 20px;
+    border-radius: 15px;
+}
+/* National Team page style end */
+
+/* Our mission and value page style start */
+.our-mission-banner {
+    background-image: url(http://localhost/gemconsortium/wp-content/uploads/2024/08/Rectangle-34624279-1.jpg);
+}
+.Entrepreneurship {
+    padding: 80px 0;
+}
+.track-record {
+    padding: 0 0 80px;
+}
+.track-record h2{
+    color:#0082CA ;
+}
+.track-record .track-record-para {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.core-value{
+    background-color: #FFEEDB;
+    padding: 80px 0;
+}
+.core-value .core-value-p{
+    max-width: 778px;
+    margin: 0 auto 40px;
+}
+.core-value h2{
+    color:#0082CA  !important;
+    margin-bottom: 20px;
+}
+.core-value-btn {
+    border: 1px solid #0082CA !important;
+    color: #0082CA !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    border-radius: 8px !important;
+    line-height: 20.16px;
+    padding: 15px 20px 18px !important;
+}
+.core-value .card{
+    padding: 40px !important;
+    border: none !important;
+    border-radius: 20px !important;
+}
+.core-value .svg-icon{
+    border: .5px solid #D9D9D9  !important;
+    margin: 0 auto;
+    padding: 27px !important;
+    border-radius: 50%;
+}
+.core-value .card-title {
+    font-size: 24px;
+    line-height: 30.24px;
+    padding: 10px 0;
+}
+.core-value .card-text {
+    font-size: 18px;
+    line-height: 26px;
+}
+/* Our mission and value page style end */
+
+/* Founding organisations page style start */
+.founding-org-banner {
+    background-image: url(http://localhost/gemconsortium/wp-content/uploads/2024/08/founding-org-banner.jpg);
+}
+.founding-org-banner p{
+    max-width: 720px !important;
+}
+.sponsor-section {
+    padding: 80px 0 0;
+}
+/* Founding organisations page style end */
+
+/* Entrepreneurial Behaviour & Attitudes style start*/
+.Entrepreneurial-behaviour{
+    background-image: url(http://localhost/gemconsortium/wp-content/uploads/2024/08/Entrepreneurial-Behaviour-Attitudes.jpg);
+}
+.EntrepreneurialBehaviour-inner .container{
+    max-width: 1000px !important;
+}
+.EntrepreneurialBehaviour-inner{
+    padding: 80px 0;
+}
+.EntrepreneurialBehaviour-inner-h2{
+    font-size: 24px !important;
+}
+.EntrepreneurialBehaviour-inner .container>div:not(:last-child){
+    margin-bottom: 30px;
+}
+.EntrepreneurialBehaviour-img1{
+    border-radius:  15px 0px 0px 15px  !important;
+}
+.EntrepreneurialBehaviour-img2{
+    border-radius: 0px 15px 15px 0px !important;
+}
+.EntrepreneurialBehaviour-inner1,.EntrepreneurialBehaviour-inner2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border: .5px solid #D9D9D9;
+    border-radius: 15px;
+}
+.EntrepreneurialBehaviour-inner1-sec2,.EntrepreneurialBehaviour-inner2-sec2{
+    align-content: center;
+}
+.EntrepreneurialBehaviour-inner1-sec2,.EntrepreneurialBehaviour-inner2-sec2,.EntrepreneurialBehaviour-inner1-sec1,.EntrepreneurialBehaviour-inner2-sec1{
+    width: 50%;
+}
+.EntrepreneurialBehaviour-inner2-sec2 {
+    padding: 0 0 0 30px;;
+}
+.EntrepreneurialBehaviour-inner1-sec2 {
+    padding-right: 30px;
+}
+/* Entrepreneurial Behaviour & Attitudes style end*/
+
+@media (max-width:991px){
+    .h1-heading {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .h2-heading {
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .team-member-modal .member-content {
+        padding: 40px;
+        width: 50%;
+    }
+    .team-member-modal .member-image {
+        width: 50%;
+    }
+    .EntrepreneurialBehaviour-img2,.EntrepreneurialBehaviour-img1{
+        border-radius: 15px !important;
+    }
+    .EntrepreneurialBehaviour-inner1{
+        flex-direction: column;
+        max-width: 720px;
+        margin: 0 auto 30px;
+    }
+    .EntrepreneurialBehaviour-inner2{
+        flex-direction: column-reverse;
+        max-width: 720px;
+        margin: 0 auto 30px;
+    }
+    .EntrepreneurialBehaviour-inner2-sec2 {
+        padding: 0 30px 30px;
+    }
+    .EntrepreneurialBehaviour-inner1-sec2 {
+        padding: 0 30px 30px;
+    }
+    .EntrepreneurialBehaviour-inner1-sec2,.EntrepreneurialBehaviour-inner1-sec1,.EntrepreneurialBehaviour-inner2-sec1,.EntrepreneurialBehaviour-inner2-sec2{
+        width: 100%;
+    }
+}
+@media (max-width:767px){
+    .global-team-members .container .row {
+        grid-row-gap: 40px;
+    }
+    .global-team-members .container .row>*{
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .team-member-modal {
+        flex-direction: column-reverse;
+    }
+    .team-member-modal .member-image {
+        height: max(45vh, 350px) !important;
+        width: 100%;
+    }
+    .team-member-modal .member-content {
+        width: 100%;
+        height: inherit;
+        overflow: auto;
+    }
+    .team-member-modal span.close-button {
+        right: 15px;
+        top: 15px;
+    }
+    .share-article .align-items-center div {
+        grid-column-gap: 6px;
+    }
+}
